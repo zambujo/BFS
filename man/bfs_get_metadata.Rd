@@ -22,9 +22,9 @@ A tibble
 }
 \description{
 Returns a tibble containing the titles, publication dates,
-observation periods, data source, metadata webpage urls and download link urls 
-in a given language of the current public BFS datasets available. If the path of 
-the cache argument is not provided, the downloaded BFS dataset will be saved in 
+observation periods, data source, metadata webpage urls and download link urls
+in a given language of the current public BFS datasets available. If the path of
+the cache argument is not provided, the downloaded BFS dataset will be saved in
 the default cache folder of the {pins} package.
 }
 \details{
@@ -34,8 +34,8 @@ metadata doesn't give access to all the BFS datasets availables online.
 
 The BFS metadata is saved in a local folder using the pins package. The
 function allows to download the BFS metadata only once per day in a given
-language. If the metadata has alread been downloaded in a given language 
-during the day, the existing dataset is loaded into R from the pins caching 
+language. If the metadata has alread been downloaded in a given language
+during the day, the existing dataset is loaded into R from the pins caching
 folder instead of downloading again the metadata from the BFS website.
 }
 \examples{

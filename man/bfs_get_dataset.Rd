@@ -24,19 +24,19 @@ bfs_get_dataset(
 \item{force}{Force download to download data even if already downloaded today.}
 }
 \description{
-Returns a data frame/tibble from  the URL of a given BFS PC-Axis file. 
-The default language is German and the column names are renamed 
+Returns a data frame/tibble from  the URL of a given BFS PC-Axis file.
+The default language is German and the column names are renamed
 using the \code{\link[janitor]{clean_names}} function of the
-janitor package. If the path of the cache argument is not provided, the 
-downloaded BFS dataset will be saved in the default cache 
+janitor package. If the path of the cache argument is not provided, the
+downloaded BFS dataset will be saved in the default cache
 folder of the {pins} package. The metadata can be accessed by making the
 downloaded dataset an argument of the base R function \code{attributes()}.
 }
 \details{
 The BFS data is saved in a local folder using the pins package. The
-function allows to download the BFS data only once per day. If the data 
-has alread been downloaded during the day, the existing dataset is loaded 
-into R from the pins caching folder instead of downloading again the 
+function allows to download the BFS data only once per day. If the data
+has alread been downloaded during the day, the existing dataset is loaded
+into R from the pins caching folder instead of downloading again the
 data from the BFS website.
 }
 \seealso{

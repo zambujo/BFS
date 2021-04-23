@@ -1,7 +1,3 @@
-rss_item_parse <- function(item, rss_xml) {
-  rss_xml %>% xml_nodes("item " %+% item) %>% xml_text()
-}
-
 #' Get the Swiss Federal Statistical Office data catalog in a given language
 #'
 #' This function scraps the RSS Feed of the Swiss Federal Statistical Office data catalog.
@@ -11,8 +7,9 @@ rss_item_parse <- function(item, rss_xml) {
 #' @return A data frame
 #'
 #' @importFrom httr RETRY stop_for_status
-#' @importFrom xml2 read_xml xml_nodes xml_text
-#' @importFrom dplyr select mutate tibble
+#' @importFrom xml2 read_xml
+#' @importFrom dplyr select mutate
+#' @importFrom tibble tibble
 #'
 #' @seealso \code{\link{bfs_get_metadata}}
 #'

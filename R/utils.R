@@ -34,3 +34,6 @@ patch_pxR <- function(tmp_loc) {
   fix <- gsub('\".....\"', '\"....\"', fix, fixed = TRUE)
   writeLines(fix, con = tmp_loc, useBytes = TRUE)
 }
+
+rss_item_parse <- function(item, rss_xml)
+  rss_xml %>% rvest::xml_nodes("item " %+% item) %>% xml2::xml_text()

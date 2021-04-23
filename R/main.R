@@ -347,7 +347,7 @@ bfs_get_dataset <-
       lang_suffix <- "" # default: no language definition
       languages_availables <- pluck(bfs_px, "LANGUAGES")
       if (grepl(language, languages_availables, fixed = TRUE)) {
-        if(language %in% c("fr", "it", "en")) {
+        if (language %in% c("fr", "it", "en")) {
           lang_suffix <- "." %+% language %+% "."  
         }
         # TODO translation : use JSON

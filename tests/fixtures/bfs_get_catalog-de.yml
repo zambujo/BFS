@@ -1,0 +1,1730 @@
+http_interactions:
+- request:
+    method: get
+    uri: https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/daten/_jcr_content/par/ws_catalog.rss.xml?skipLimit=true
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      Accept: application/json, text/xml, application/xml, */*
+      Content-Type: ''
+  response:
+    status:
+      status_code: 200
+      category: Success
+      reason: OK
+      message: 'Success: (200) OK'
+    headers:
+      cache-control: max-age=300
+      content-encoding: gzip
+      content-length: '10777'
+      content-type: text/xml;charset=utf-8
+      date: Fri, 23 Apr 2021 05:14:38 GMT
+      set-cookie:
+      - BITS-Persistence=1837867018.20480.0000; path=/; Httponly; Secure
+      - TS0142722c=019832244be8275a8debd45dfea4e19e3db0f5def60383b4ede728a5e9653146894483e0cda6ea93968b481f68ba683ef8082a4d83d2a5164d9a2a3b136cf03f926c5a6591;
+        Path=/; Secure; HTTPOnly
+      vary: Accept-Encoding
+      x-content-type-options: nosniff
+      x-frame-options: SAMEORIGIN
+      x-xss-protection: 1; mode=block
+    body:
+      encoding: UTF-8
+      file: no
+      string: "<rss version=\"2.0\">\n            <channel>\n                <title>Statistik
+        Schweiz - Interaktive Tabellen</title>\n                <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.html</link>\n
+        \               <description>Katalog der interaktiven Tabellen vom Bundesamt
+        für Statistik</description>\n                <language>de</language>\n                <copyright>BFS/OFS/UST/FSO</copyright>\n
+        \               <pubDate>Tue, 13 Apr 2021 08:30:00 +0200</pubDate><ttl>60</ttl>\n
+        \               <item>\n                        <title>Neue Inverkehrsetzungen
+        von Strassenfahrzeugen nach Monaten (provisorische Daten 2021 mit Vorjahresvergleich):
+        Resultate nach Kanton, Fahrzeuggruppe, Fahrzeugart, Treibstoff, Monat und
+        Jahr</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16764792.html</link>\n
+        \                       <pubDate>Tue, 13 Apr 2021 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16764792</guid>\n                    </item>\n
+        \               <item>\n                        <title>Hotellerie: Angebot
+        und Nachfrage der geöffneten Betriebe in 100 Gemeinden nach Jahr, Monat und
+        Gemeinde</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16744733.html</link>\n
+        \                       <pubDate>Tue, 06 Apr 2021 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16744733</guid>\n                    </item>\n
+        \               <item>\n                        <title>Hotellerie: Angebot
+        und Nachfrage der geöffneten Betriebe nach Jahr, Monat und Kanton</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16744725.html</link>\n
+        \                       <pubDate>Tue, 06 Apr 2021 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16744725</guid>\n                    </item>\n
+        \               <item>\n                        <title>Hotellerie: Angebot
+        und Nachfrage der geöffneten Betriebe nach Jahr, Monat und Tourismusregion</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16744727.html</link>\n
+        \                       <pubDate>Tue, 06 Apr 2021 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16744727</guid>\n                    </item>\n
+        \               <item>\n                        <title>Hotellerie: Ankünfte
+        und Logiernächte der geöffneten Betriebe in 100 Gemeinden nach Jahr, Monat,
+        Gemeinde und Gästeherkunftsland</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16744728.html</link>\n
+        \                       <pubDate>Tue, 06 Apr 2021 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16744728</guid>\n                    </item>\n
+        \               <item>\n                        <title>Hotellerie: Ankünfte
+        und Logiernächte der geöffneten Betriebe nach Jahr, Monat, Kanton und Gästeherkunftsland</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16744724.html</link>\n
+        \                       <pubDate>Tue, 06 Apr 2021 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16744724</guid>\n                    </item>\n
+        \               <item>\n                        <title>Hotellerie: Ankünfte
+        und Logiernächte der geöffneten Betriebe nach Jahr, Monat, Tourismusregion
+        und Gästeherkunftsland</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16744726.html</link>\n
+        \                       <pubDate>Tue, 06 Apr 2021 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16744726</guid>\n                    </item>\n
+        \               <item>\n                        <title>Provisorische Bilanz
+        der ständigen Wohnbevölkerung 2020 nach Kanton, Staatsangehörigkeit (Kategorie),
+        Geschlecht, Alter und demografischer Komponente</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16224502.html</link>\n
+        \                       <pubDate>Tue, 06 Apr 2021 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16224502</guid>\n                    </item>\n
+        \               <item>\n                        <title>Todesfälle nach Monat
+        und Sterblichkeit seit 1803</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16664926.html</link>\n
+        \                       <pubDate>Tue, 06 Apr 2021 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16664926</guid>\n                    </item>\n
+        \               <item>\n                        <title>Detailhandelsumsatzstatistik
+        - jährliche Zeitreihen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16684649.html</link>\n
+        \                       <pubDate>Thu, 01 Apr 2021 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16684649</guid>\n                    </item>\n
+        \               <item>\n                        <title>Detailhandelsumsatzstatistik
+        - monatliche Zeitreihen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16664958.html</link>\n
+        \                       <pubDate>Thu, 01 Apr 2021 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16664958</guid>\n                    </item>\n
+        \               <item>\n                        <title>Detailhandelsumsatzstatistik
+        - vierteljährliche Zeitreihen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16664954.html</link>\n
+        \                       <pubDate>Thu, 01 Apr 2021 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16664954</guid>\n                    </item>\n
+        \               <item>\n                        <title>Auslandschweizer nach
+        Konsularkreis, Bürgerrecht, Geschlecht und Altersklasse</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16224431.html</link>\n
+        \                       <pubDate>Tue, 30 Mar 2021 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16224431</guid>\n                    </item>\n
+        \               <item>\n                        <title>Auslandschweizer nach
+        Wohnsitzstaat, Bürgerrecht, Geschlecht und Altersklasse</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16224430.html</link>\n
+        \                       <pubDate>Tue, 30 Mar 2021 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16224430</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lehrkräfte nach Schuljahr,
+        Kanton und Bildungsstufe (öffentliche Schulen) - in Vollzeitäquivalenten</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16224415.html</link>\n
+        \                       <pubDate>Tue, 30 Mar 2021 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16224415</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lehrkräfte nach Schuljahr,
+        Kanton, Altersklasse und Bildungsstufe (öffentliche Schulen) - in Personen</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16224414.html</link>\n
+        \                       <pubDate>Tue, 30 Mar 2021 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16224414</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lehrkräfte nach Schuljahr,
+        Kanton, Beschäftigungsgrad und Bildungsstufe (öffentliche Schulen) - in Personen</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16224413.html</link>\n
+        \                       <pubDate>Tue, 30 Mar 2021 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16224413</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lehrkräfte nach Schuljahr,
+        Kanton, Geschlecht und Bildungsstufe (öffentliche Schulen) - in Personen</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16224412.html</link>\n
+        \                       <pubDate>Tue, 30 Mar 2021 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16224412</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lehrkräfte nach Schuljahr,
+        Kanton, Staatsangehörigkeit und Bildungsstufe (öffentliche Schulen) - in Personen</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16224411.html</link>\n
+        \                       <pubDate>Tue, 30 Mar 2021 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16224411</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte auf Stufen
+        Diplom und Bachelor der Fachhochschulen (ohne PH) nach Jahr, Fachbereich und
+        Altersklasse</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324954.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324954</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte auf Stufen
+        Diplom und Bachelor der Fachhochschulen (ohne PH) nach Jahr, Fachbereich,
+        Geschlecht und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324938.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324938</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte auf Stufen
+        Diplom und Bachelor der Fachhochschulen (ohne PH) nach Jahr, Fachbereich,
+        Staatsangehörigkeit (Kategorie) und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324948.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324948</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte auf Stufen
+        Diplom und Bachelor der Fachhochschulen (ohne PH) nach Jahr, Fachrichtung,
+        Geschlecht und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324949.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324949</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte auf Stufen
+        Diplom und Bachelor der Fachhochschulen (ohne PH) nach Jahr, Fachrichtung,
+        Staatsangehörigkeit (Kategorie) und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324963.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324963</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte auf Stufen
+        Diplom und Bachelor der Fachhochschulen (ohne PH) nach Jahr, Zulassungsausweis
+        und Fachbereich</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324965.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324965</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte auf Stufen
+        Diplom und Bachelor der Fachhochschulen und pädagogischen Hochschulen nach
+        Jahr, Fachbereich und Altersklasse</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16344039.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16344039</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte auf Stufen
+        Diplom und Bachelor der Fachhochschulen und pädagogischen Hochschulen nach
+        Jahr, Fachbereich, Geschlecht und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16344037.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16344037</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte auf Stufen
+        Diplom und Bachelor der Fachhochschulen und pädagogischen Hochschulen nach
+        Jahr, Fachbereich, Staatsangehörigkeit (Kategorie) und Hochschule</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16344038.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16344038</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte auf Stufen
+        Diplom und Bachelor der Fachhochschulen und pädagogischen Hochschulen nach
+        Jahr, Fachrichtung, Geschlecht und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16344042.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16344042</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte auf Stufen
+        Diplom und Bachelor der Fachhochschulen und pädagogischen Hochschulen nach
+        Jahr, Fachrichtung, Staatsangehörigkeit (Kategorie) und Hochschule</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16344040.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16344040</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte auf Stufen
+        Lizenziat/Diplom und Bachelor der universitären Hochschulen nach Jahr, Fachbereich,
+        Geschlecht und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324875.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324875</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte auf Stufen
+        Lizenziat/Diplom und Bachelor der universitären Hochschulen nach Jahr, Fachbereich,
+        Staatsangehörigkeit (Kategorie) und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324888.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324888</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte auf Stufen
+        Lizenziat/Diplom und Bachelor der universitären Hochschulen nach Jahr, Fachbereichsgruppe
+        und Altersklasse</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324903.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324903</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte auf Stufen
+        Lizenziat/Diplom und Bachelor der universitären Hochschulen nach Jahr, Fachrichtung,
+        Geschlecht und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324892.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324892</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte auf Stufen
+        Lizenziat/Diplom und Bachelor der universitären Hochschulen nach Jahr, Fachrichtung,
+        Staatsangehörigkeit (Kategorie) und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324898.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324898</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte auf Stufen
+        Lizenziat/Diplom und Bachelor der universitären Hochschulen nach Jahr, Zulassungsausweis
+        und Fachbereichsgruppe</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324899.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324899</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte der pädagogischen
+        Hochschulen (ohne FH) nach Jahr, Fachrichtung, Studienstufe und Altersklasse</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324990.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324990</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte der pädagogischen
+        Hochschulen (ohne FH) nach Jahr, Fachrichtung, Studienstufe, Geschlecht und
+        Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324980.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324980</guid>\n                    </item>\n
+        \               <item>\n                        <title>Eintritte der pädagogischen
+        Hochschulen (ohne FH) nach Jahr, Fachrichtung, Studienstufe, Staatsangehörigkeit
+        (Kategorie) und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324988.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324988</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        Fachhochschulen (ohne PH) nach Jahr, Fachbereich und Altersklasse</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324944.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324944</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        Fachhochschulen (ohne PH) nach Jahr, Fachbereich, Bildungsherkunft und Hochschule,
+        nur Studierende auf Stufen Diplom, Bachelor und Master (ohne Weiterbildung)</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324930.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324930</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        Fachhochschulen (ohne PH) nach Jahr, Fachbereich, Studienstufe, Geschlecht
+        und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324927.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324927</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        Fachhochschulen (ohne PH) nach Jahr, Fachbereich, Studienstufe, Staatsangehörigkeit
+        (Kategorie) und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16344060.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16344060</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        Fachhochschulen (ohne PH) nach Jahr, Fachrichtung, Geschlecht und Hochschule,
+        nur Studierende auf Stufen Diplom, Bachelor und Master (ohne Weiterbildung)</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324913.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324913</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        Fachhochschulen (ohne PH) nach Jahr, Fachrichtung, Staatsangehörigkeit (Kategorie)
+        und Hochschule, nur Studierende auf Stufen Diplom, Bachelor und Master (ohne
+        Weiterbildung)</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324911.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324911</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        Fachhochschulen (ohne PH) nach Jahr, Fachrichtung, Studienstufe und Hochschule</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324928.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324928</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        Fachhochschulen (ohne PH) nach Jahr, Wohnkanton vor Studienbeginn und Hochschule,
+        nur Studierende auf Stufen Diplom, Bachelor und Master (ohne Weiterbildung)</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324933.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324933</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        Fachhochschulen und pädagogischen Hochschulen nach Jahr, Fachbereich und Altersklasse</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16344024.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16344024</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        Fachhochschulen und pädagogischen Hochschulen nach Jahr, Fachbereich, Bildungsherkunft
+        und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16344016.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16344016</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        Fachhochschulen und pädagogischen Hochschulen nach Jahr, Fachbereich, Studienstufe,
+        Geschlecht und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16344009.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16344009</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        Fachhochschulen und pädagogischen Hochschulen nach Jahr, Fachbereich, Studienstufe,
+        Staatsangehörigkeit (Kategorie) und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16344011.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16344011</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        Fachhochschulen und pädagogischen Hochschulen nach Jahr, Fachrichtung, Geschlecht
+        und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16344002.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16344002</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        Fachhochschulen und pädagogischen Hochschulen nach Jahr, Fachrichtung, Staatsangehörigkeit
+        (Kategorie) und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16344010.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16344010</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        Fachhochschulen und pädagogischen Hochschulen nach Jahr, Fachrichtung, Studienstufe
+        und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16344006.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16344006</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        Fachhochschulen und pädagogischen Hochschulen nach Jahr, ISCED Fach, Geschlecht
+        und Studienstufe</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16344041.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16344041</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        Fachhochschulen und pädagogischen Hochschulen nach Jahr, ISCED Fach, Staatsangehörigkeit
+        (Kategorie) und Studienstufe</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16344054.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16344054</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        Fachhochschulen und pädagogischen Hochschulen nach Jahr, Wohnkanton vor Studienbeginn
+        und Hochschule, nur Studierende auf Stufen Diplom, Bachelor und Master (ohne
+        Weiterbildung)</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16344026.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16344026</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        pädagogischen Hochschulen (ohne FH) nach Jahr, Fachrichtung und Altersklasse</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324984.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324984</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        pädagogischen Hochschulen (ohne FH) nach Jahr, Fachrichtung, Geschlecht und
+        Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324960.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324960</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        pädagogischen Hochschulen (ohne FH) nach Jahr, Fachrichtung, Geschlecht und
+        Studienstufe</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324981.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324981</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        pädagogischen Hochschulen (ohne FH) nach Jahr, Fachrichtung, Staatsangehörigkeit
+        (Kategorie) und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324966.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324966</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        pädagogischen Hochschulen (ohne FH) nach Jahr, Fachrichtung, Staatsangehörigkeit
+        (Kategorie) und Studienstufe</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324979.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324979</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        universitären Hochschulen nach Jahr, Fachbereich, Studienstufe, Bildungsherkunft
+        und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324865.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324865</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        universitären Hochschulen nach Jahr, Fachbereich, Studienstufe, Geschlecht
+        und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324861.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324861</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        universitären Hochschulen nach Jahr, Fachbereich, Studienstufe, Staatsangehörigkeit
+        (Kategorie) und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324860.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324860</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        universitären Hochschulen nach Jahr, Fachbereichsgruppe und Altersklasse</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324868.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324868</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        universitären Hochschulen nach Jahr, Fachrichtung, Geschlecht und Hochschule</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324872.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324872</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        universitären Hochschulen nach Jahr, Fachrichtung, Staatsangehörigkeit (Kategorie)
+        und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324858.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324858</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        universitären Hochschulen nach Jahr, Fachrichtung, Studienstufe und Hochschule</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324857.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324857</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        universitären Hochschulen nach Jahr, ISCED Fach, Geschlecht und Studienstufe</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324907.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324907</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        universitären Hochschulen nach Jahr, ISCED Fach, Staatsangehörigkeit (Kategorie)
+        und Studienstufe</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324910.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324910</guid>\n                    </item>\n
+        \               <item>\n                        <title>Studierende an den
+        universitären Hochschulen nach Jahr, Wohnkanton vor Studienbeginn und Hochschule</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16324879.html</link>\n
+        \                       <pubDate>Fri, 26 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16324879</guid>\n                    </item>\n
+        \               <item>\n                        <title>Filmangebot und Nachfrage
+        nach Herkunftsland</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16344768.html</link>\n
+        \                       <pubDate>Tue, 23 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16344768</guid>\n                    </item>\n
+        \               <item>\n                        <title>Filmangebot und Nachfrage
+        nach Herkunftsland, Sprachgebiet, Sprachfassung, Projektionsart (2D/3D) und
+        Genre</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16344766.html</link>\n
+        \                       <pubDate>Tue, 23 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16344766</guid>\n                    </item>\n
+        \               <item>\n                        <title>Kinoinfrastruktur nach
+        Gemeinde und Kinotyp</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16344767.html</link>\n
+        \                       <pubDate>Tue, 23 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16344767</guid>\n                    </item>\n
+        \               <item>\n                        <title>Polizeilich registrierte
+        Beschuldigte gemäss Strafgesetzbuch nach Straftat, Kanton, Aufenthaltssgruppe,
+        Geschlecht und Altersklasse</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15884287.html</link>\n
+        \                       <pubDate>Mon, 22 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15884287</guid>\n                    </item>\n
+        \               <item>\n                        <title>Polizeilich registrierte
+        Straftaten gemäss Strafgesetzbuch nach Kanton, Ausführungsgrad und Aufklärungsgrad</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15884285.html</link>\n
+        \                       <pubDate>Mon, 22 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15884285</guid>\n                    </item>\n
+        \               <item>\n                        <title>Dienstleistungsumsatzstatistik
+        - jährliche Zeitreihen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16184737.html</link>\n
+        \                       <pubDate>Mon, 01 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16184737</guid>\n                    </item>\n
+        \               <item>\n                        <title>Dienstleistungsumsatzstatistik
+        - vierteljährliche Zeitreihen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16184738.html</link>\n
+        \                       <pubDate>Mon, 01 Mar 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16184738</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ausländische Grenzgänger/innen
+        nach Erwerbsstatus und Wirtschaftsabteilung</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15864908.html</link>\n
+        \                       <pubDate>Fri, 26 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15864908</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ausländische Grenzgänger/innen
+        nach Geschlecht und Arbeitsgemeinde</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15864906.html</link>\n
+        \                       <pubDate>Fri, 26 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15864906</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ausländische Grenzgänger/innen
+        nach Geschlecht, Arbeitskanton und Altersklasse</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15864931.html</link>\n
+        \                       <pubDate>Fri, 26 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15864931</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ausländische Grenzgänger/innen
+        nach Geschlecht, Arbeitskanton und Wohnsitzstaat</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15864905.html</link>\n
+        \                       <pubDate>Fri, 26 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15864905</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ausländische Grenzgänger/innen
+        nach Geschlecht, Arbeitskanton, Erwerbsstatus und Dauer der Arbeitsbewilligung</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15864927.html</link>\n
+        \                       <pubDate>Fri, 26 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15864927</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ausländische Grenzgänger/innen
+        nach Geschlecht, Arbeitskanton, Wohnsitzstaat, Wirtschaftsabteilung und Quartal</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15864921.html</link>\n
+        \                       <pubDate>Fri, 26 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15864921</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ausländische Grenzgänger/innen
+        wohnhaft in Deutschland nach Geschlecht, Arbeitskanton und Wohnlandkreis</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15864904.html</link>\n
+        \                       <pubDate>Fri, 26 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15864904</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ausländische Grenzgänger/innen
+        wohnhaft in Frankreich nach Geschlecht, Arbeitskanton und Wohndepartement</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15864907.html</link>\n
+        \                       <pubDate>Fri, 26 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15864907</guid>\n                    </item>\n
+        \               <item>\n                        <title>Beschäftigte nach Grossregion,
+        Wirtschaftssektor, Beschäftigungsgrad und Geschlecht</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15864988.html</link>\n
+        \                       <pubDate>Fri, 26 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15864988</guid>\n                    </item>\n
+        \               <item>\n                        <title>Beschäftigte nach Wirtschaftsabteilung,
+        Beschäftigungsgrad und Geschlecht</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15864983.html</link>\n
+        \                       <pubDate>Fri, 26 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15864983</guid>\n                    </item>\n
+        \               <item>\n                        <title>Flugbewegungen (Starts
+        und Landungen) im Linien- und Charterverkehr: Resultate nach Flughafen, Art
+        des Verkehrs, Monat (verfügbar ab dem Jahr 2000) und Jahr</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15584380.html</link>\n
+        \                       <pubDate>Fri, 26 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15584380</guid>\n                    </item>\n
+        \               <item>\n                        <title>Flugpassagiere im Linien-
+        und Charterverkehr: Resultate nach Flughafen, Art des Verkehrs, Art der Passagiere,
+        Monat (verfügbar ab dem Jahr 2000) und Jahr</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15584381.html</link>\n
+        \                       <pubDate>Fri, 26 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15584381</guid>\n                    </item>\n
+        \               <item>\n                        <title>Offene Stellen nach
+        Grossregion</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15864985.html</link>\n
+        \                       <pubDate>Fri, 26 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15864985</guid>\n                    </item>\n
+        \               <item>\n                        <title>Offene Stellen nach
+        ausgewählten Wirtschaftsabschnitten</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15864984.html</link>\n
+        \                       <pubDate>Fri, 26 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15864984</guid>\n                    </item>\n
+        \               <item>\n                        <title>Schwierigkeiten bei
+        der Personalrekrutierung nach Grossregion und Ausbildungsniveau</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15864990.html</link>\n
+        \                       <pubDate>Fri, 26 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15864990</guid>\n                    </item>\n
+        \               <item>\n                        <title>Schwierigkeiten bei
+        der Personalrekrutierung nach ausgewählten Wirtschaftsabschnitten und Ausbildungsniveau</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15864994.html</link>\n
+        \                       <pubDate>Fri, 26 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15864994</guid>\n                    </item>\n
+        \               <item>\n                        <title>Voraussichtliche Beschäftigungsentwicklung
+        nach Grossregion</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15864986.html</link>\n
+        \                       <pubDate>Fri, 26 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15864986</guid>\n                    </item>\n
+        \               <item>\n                        <title>Voraussichtliche Beschäftigungsentwicklung
+        nach ausgewählten Wirtschaftsabschnitten</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15864989.html</link>\n
+        \                       <pubDate>Fri, 26 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15864989</guid>\n                    </item>\n
+        \               <item>\n                        <title>Höhere Berufsbildung:
+        Lernende nach Ausbildungsfeld, Bildungstyp, Geschlecht und Staatsangehörigkeit
+        (Kategorie)</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15824581.html</link>\n
+        \                       <pubDate>Tue, 23 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15824581</guid>\n                    </item>\n
+        \               <item>\n                        <title>Höhere Berufsbildung:
+        Lernende nach Bildungstyp, Schulkanton, Geschlecht und Staatsangehörigkeit
+        (Kategorie)</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15824561.html</link>\n
+        \                       <pubDate>Tue, 23 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15824561</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lernende nach Bildungsstufe,
+        Schulkanton, Geschlecht und Staatsangehörigkeit (Kategorie) (ohne Hochschulen)</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15824559.html</link>\n
+        \                       <pubDate>Tue, 23 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15824559</guid>\n                    </item>\n
+        \               <item>\n                        <title>Obligatorische Schule:
+        Lernende nach Bildungsstufe, Geschlecht, Staatsangehörigkeit (Kategorie) und
+        Erstsprache</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15824563.html</link>\n
+        \                       <pubDate>Tue, 23 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15824563</guid>\n                    </item>\n
+        \               <item>\n                        <title>Sekundarstufe II -
+        Berufsmaturität (BM2): Lernende nach Richtung, Geschlecht und Staatsangehörigkeit
+        (Kategorie)</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15824564.html</link>\n
+        \                       <pubDate>Tue, 23 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15824564</guid>\n                    </item>\n
+        \               <item>\n                        <title>Sekundarstufe II -
+        allgemeinbildende Ausbildungen: Lernende nach Bildungstyp und Richtung, Geschlecht
+        und Staatsangehörigkeit (Kategorie)</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15824565.html</link>\n
+        \                       <pubDate>Tue, 23 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15824565</guid>\n                    </item>\n
+        \               <item>\n                        <title>Sekundarstufe II -
+        berufliche Grundbildung: Lernende nach Bildungstyp, Ausbildungsfeld, Geschlecht
+        und Staatsangehörigkeit (Kategorie)</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15824562.html</link>\n
+        \                       <pubDate>Tue, 23 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15824562</guid>\n                    </item>\n
+        \               <item>\n                        <title>Sekundarstufe II: Lernende
+        nach Bildungsstufe und Bildungstyp, Schulkanton, Geschlecht und Staatsangehörigkeit
+        (Kategorie)</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15824560.html</link>\n
+        \                       <pubDate>Tue, 23 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15824560</guid>\n                    </item>\n
+        \               <item>\n                        <title>Produktions-, Auftrags-
+        und Umsatzstatistik im sekundären Sektor - jährliche Zeitreihen</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16044447.html</link>\n
+        \                       <pubDate>Fri, 19 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16044447</guid>\n                    </item>\n
+        \               <item>\n                        <title>Produktions-, Auftrags-
+        und Umsatzstatistik im sekundären Sektor - monatliche Zeitreihen</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16044446.html</link>\n
+        \                       <pubDate>Fri, 19 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16044446</guid>\n                    </item>\n
+        \               <item>\n                        <title>Produktions-, Auftrags-
+        und Umsatzstatistik im sekundären Sektor - vierteljährliche Zeitreihen</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.16044448.html</link>\n
+        \                       <pubDate>Fri, 19 Feb 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed16044448</guid>\n                    </item>\n
+        \               <item>\n                        <title>Bestand der Industriefahrzeuge
+        nach technischen Merkmalen und Emissionen, ab 2005: Resultate nach Kanton,
+        Jahr der 1. Inverkehrsetzung, Fahrzeugart, Treibstoff, Leistung, Emissionsklasse,
+        Partikelfilter und Jahr</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724885.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724885</guid>\n                    </item>\n
+        \               <item>\n                        <title>Bestand der Industriefahrzeuge
+        nach technischen Merkmalen, ab 1990: Resultate nach Kanton, Fahrzeugart, Anzahl
+        Achsen, Gesamtgewicht, Treibstoff (aggregiert), Hubraum, Antrieb und Jahr</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724874.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724874</guid>\n                    </item>\n
+        \               <item>\n                        <title>Bestand der Landwirtschaftsfahrzeuge
+        nach technischen Merkmalen und Emissionen, ab 2005: Resultate nach Kanton,
+        Jahr der 1. Inverkehrsetzung, Fahrzeugart, Treibstoff,  Leistung, Emissionsklasse,
+        Partikelfilter und Jahr</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724863.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724863</guid>\n                    </item>\n
+        \               <item>\n                        <title>Bestand der Landwirtschaftsfahrzeuge
+        nach technischen Merkmalen, ab 1990: Resultate nach Kanton, Fahrzeugart, Anzahl
+        Achsen, Gesamtgewicht, Treibstoff (aggregiert), Hubraum, Antrieb und Jahr</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724845.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724845</guid>\n                    </item>\n
+        \               <item>\n                        <title>Bestand der Motorräder
+        nach technischen Merkmalen und Emissionen, ab 2005: Resultate nach Kanton,
+        Jahr der 1. Inverkehrsetzung, Fahrzeugart, Treibstoff, Leistung, Emissionsklasse
+        und Jahr</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724872.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724872</guid>\n                    </item>\n
+        \               <item>\n                        <title>Bestand der Motorräder
+        nach technischen Merkmalen, ab 1990: Resultate nach Kanton, Fahrzeugart, Karosserie,
+        Hubraum, Treibstoff (aggregiert) und Jahr</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724875.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724875</guid>\n                    </item>\n
+        \               <item>\n                        <title>Bestand der Personentransportfahrzeuge
+        nach technischen Merkmalen und Emissionen, ab 2005: Resultate nach Kanton,
+        Jahr der 1. Inverkehrsetzung, Fahrzeugart, Karosserie, Treibstoff, Emissionsklasse,
+        Partikelfilter und Jahr</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724844.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724844</guid>\n                    </item>\n
+        \               <item>\n                        <title>Bestand der Personentransportfahrzeuge
+        nach technischen Merkmalen, ab 1990: Resultate nach Kanton, Fahrzeugart, Karosserie,
+        EU-Fahrzeugklasse, Anzahl Sitzplätze, Anzahl Stehplätze, Treibstoff (aggregiert),
+        Antrieb und Jahr</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724840.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724840</guid>\n                    </item>\n
+        \               <item>\n                        <title>Bestand der Personenwagen
+        nach Emissionen, ab 2005: Resultate nach Kanton, Leergewicht, Treibstoff,
+        Leistung, Emissionsklasse, CO2-Emissionen, Partikelfilter und Jahr</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15744648.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15744648</guid>\n                    </item>\n
+        \               <item>\n                        <title>Bestand der Personenwagen
+        nach technischen Merkmalen, ab 1990: Resultate nach Kanton, Karosserie, Anzahl
+        Sitzplätze, Treibstoff (aggregiert), Hubraum (aggregiert), Antrieb und Jahr</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724842.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724842</guid>\n                    </item>\n
+        \               <item>\n                        <title>Bestand der Personenwagen
+        nach technischen Merkmalen, ab 2005: Resultate nach Kanton, Jahr der 1. Inverkehrsetzung,
+        Leergewicht, Treibstoff, Hubraum, Antrieb, Getriebebedienung und Jahr</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724843.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724843</guid>\n                    </item>\n
+        \               <item>\n                        <title>Bestand der Sachentransportfahrzeuge
+        nach technischen Merkmalen und Emissionen, ab 2005: Resultate nach Kanton,
+        Jahr der 1. Inverkehrsetzung, Fahrzeugart, Treibstoff, Leistung, Emissionsklasse,
+        Partikelfilter und Jahr</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724862.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724862</guid>\n                    </item>\n
+        \               <item>\n                        <title>Bestand der Sachentransportfahrzeuge
+        nach technischen Merkmalen, ab 1990: Resultate nach Kanton, Fahrzeugart, Karosserie,
+        EU-Fahrzeugklasse, Gesamtgewicht, Treibstoff (aggregiert), Antrieb und Jahr</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724841.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724841</guid>\n                    </item>\n
+        \               <item>\n                        <title>Bestand der Strassenfahrzeug-Anhänger
+        nach technischen Merkmalen, ab 2005: Resultate nach Kanton, Jahr der 1. Inverkehrsetzung,
+        Fahrzeugart, EU-Fahrzeugklasse, Anzahl Achsen, Gesamtgewicht, Nutzlast und
+        Jahr</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724873.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724873</guid>\n                    </item>\n
+        \               <item>\n                        <title>Bestand der Strassenfahrzeuge
+        nach Fahrzeuggruppe und Fahrzeugart, ab 1990: Resultate nach Kanton, Fahrzeuggruppe,
+        Fahrzeugart, Jahr der 1. Inverkehrsetzung, Treibstoff (aggregiert) und Jahr</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724839.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724839</guid>\n                    </item>\n
+        \               <item>\n                        <title>Neue Inverkehrsetzungen
+        von Industriefahrzeugen nach technischen Merkmalen und Emissionsklasse: Resultate
+        nach Kanton, Fahrzeugart, Gesamtgewicht, Treibstoff, Leistung, Emissionsklasse
+        und Jahr</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724921.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724921</guid>\n                    </item>\n
+        \               <item>\n                        <title>Neue Inverkehrsetzungen
+        von Landwirtschaftsfahrzeugen nach technischen Merkmalen und Emissionsklasse:
+        Resultate nach Kanton, Fahrzeugart, Gesamtgewicht, Treibstoff, Leistung, Emissionsklasse
+        und Jahr</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724896.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724896</guid>\n                    </item>\n
+        \               <item>\n                        <title>Neue Inverkehrsetzungen
+        von Motorrädern nach technischen Merkmalen und Emissionsklasse: Resultate
+        nach Kanton, Fahrzeugart, Karosserie, Treibstoff, Hubraum, Leistung, Emissionsklasse
+        und Jahr</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724901.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724901</guid>\n                    </item>\n
+        \               <item>\n                        <title>Neue Inverkehrsetzungen
+        von Personentransportfahrzeugen nach technischen Merkmalen und Emissionsklasse:
+        Resultate nach Kanton, Fahrzeugart, Karosserie, EU-Fahrzeugklasse, Anzahl
+        Sitzplätze, Anzahl Stehplätze, Treibstoff, Emissionsklasse und Jahr</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724898.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724898</guid>\n                    </item>\n
+        \               <item>\n                        <title>Neue Inverkehrsetzungen
+        von Personenwagen nach Emissionen: Resultate nach Kanton, Leergewicht, Treibstoff,
+        Leistung, Emissionsklasse, CO2-Emissionen und Jahr</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724906.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724906</guid>\n                    </item>\n
+        \               <item>\n                        <title>Neue Inverkehrsetzungen
+        von Personenwagen nach technischen Merkmalen: Resultate nach Kanton, Karosserie,
+        Leergewicht, Treibstoff, Hubraum, Leistung, Antrieb, Getriebebedienung und
+        Jahr</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724900.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724900</guid>\n                    </item>\n
+        \               <item>\n                        <title>Neue Inverkehrsetzungen
+        von Sachentransportfahrzeugen nach technischen Merkmalen und Emissionsklasse:
+        Resultate nach Kanton, Fahrzeugart, Karosserie, EU-Fahrzeugklasse, Gesamtgewicht,
+        Treibstoff, Emissionsklasse und Jahr</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724897.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724897</guid>\n                    </item>\n
+        \               <item>\n                        <title>Neue Inverkehrsetzungen
+        von Strassenfahrzeug-Anhängern nach Nutzlast: Resultate nach Kanton, Fahrzeugart,
+        EU-Fahrzeugklasse, Gesamtgewicht, Nutzlast und Jahr</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724925.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724925</guid>\n                    </item>\n
+        \               <item>\n                        <title>Neue Inverkehrsetzungen
+        von Strassenfahrzeugen nach Fahrzeuggruppe und Fahrzeugart: Resultate nach
+        Kanton, Fahrzeuggruppe, Fahrzeugart, Treibstoff, Monat und Jahr</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15724899.html</link>\n
+        \                       <pubDate>Fri, 29 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15724899</guid>\n                    </item>\n
+        \               <item>\n                        <title>Grenzüberschreitender
+        City Statistics: Arbeitsmarkt</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15504148.html</link>\n
+        \                       <pubDate>Wed, 27 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15504148</guid>\n                    </item>\n
+        \               <item>\n                        <title>Grenzüberschreitender
+        City Statistics: Bildung</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15504160.html</link>\n
+        \                       <pubDate>Wed, 27 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15504160</guid>\n                    </item>\n
+        \               <item>\n                        <title>Grenzüberschreitender
+        City Statistics: Demografie</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15504112.html</link>\n
+        \                       <pubDate>Wed, 27 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15504112</guid>\n                    </item>\n
+        \               <item>\n                        <title>Grenzüberschreitender
+        City Statistics: Gesundheit</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15504149.html</link>\n
+        \                       <pubDate>Wed, 27 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15504149</guid>\n                    </item>\n
+        \               <item>\n                        <title>Grenzüberschreitender
+        City Statistics: Mobilität und Tourismus</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15504159.html</link>\n
+        \                       <pubDate>Wed, 27 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15504159</guid>\n                    </item>\n
+        \               <item>\n                        <title>Grenzüberschreitender
+        City Statistics: Wirtschaft</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15504151.html</link>\n
+        \                       <pubDate>Wed, 27 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15504151</guid>\n                    </item>\n
+        \               <item>\n                        <title>Grenzüberschreitender
+        City Statistics: Wohnen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15504120.html</link>\n
+        \                       <pubDate>Wed, 27 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15504120</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lebensqualität in den
+        Quartieren der City Statistics Städten: Wohnsituation</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15504130.html</link>\n
+        \                       <pubDate>Wed, 27 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15504130</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lebensqualität in den
+        Städten und Agglomerationen (Agglo 2012): Bildung</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15504122.html</link>\n
+        \                       <pubDate>Wed, 27 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15504122</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lebensqualität in den
+        Städten und Agglomerationen (Agglo 2012): Demographischer Kontext</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15504142.html</link>\n
+        \                       <pubDate>Wed, 27 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15504142</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lebensqualität in den
+        Städten und Agglomerationen (Agglo 2012): Einkommen und Arbeit</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15504135.html</link>\n
+        \                       <pubDate>Wed, 27 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15504135</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lebensqualität in den
+        Städten und Agglomerationen (Agglo 2012): Kultur und Freizeit</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15504125.html</link>\n
+        \                       <pubDate>Wed, 27 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15504125</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lebensqualität in den
+        Städten und Agglomerationen (Agglo 2012): Mobilität</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15504111.html</link>\n
+        \                       <pubDate>Wed, 27 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15504111</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lebensqualität in den
+        Städten und Agglomerationen (Agglo 2012): Wohnsituation</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15504136.html</link>\n
+        \                       <pubDate>Wed, 27 Jan 2021 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15504136</guid>\n                    </item>\n
+        \               <item>\n                        <title>Volksabstimmungen (Anzahl
+        Vorlagen nach Thema seit 1971)</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15544821.html</link>\n
+        \                       <pubDate>Thu, 21 Jan 2021 17:00:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15544821</guid>\n                    </item>\n
+        \               <item>\n                        <title>Volksabstimmungen (Anzahl
+        angenommene und verworfene Abstimmungsvorlagen, nach Typ seit 1848)</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15544822.html</link>\n
+        \                       <pubDate>Thu, 21 Jan 2021 17:00:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15544822</guid>\n                    </item>\n
+        \               <item>\n                        <title>Volksabstimmungen (Ergebnisse
+        Ebene Gemeinde seit 1960)</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15544823.html</link>\n
+        \                       <pubDate>Thu, 21 Jan 2021 17:00:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15544823</guid>\n                    </item>\n
+        \               <item>\n                        <title>Volksabstimmungen (Ergebnisse
+        Ebene Kanton seit 1866)</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15544820.html</link>\n
+        \                       <pubDate>Thu, 21 Jan 2021 17:00:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15544820</guid>\n                    </item>\n
+        \               <item>\n                        <title>ALBV: Dossiers der
+        Alimentenbevorschussung nach Kanton und Struktur der Unterstützungseinheit</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15001919.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15001919</guid>\n                    </item>\n
+        \               <item>\n                        <title>ALBV: Von der Alimentenbevorschussung
+        unterstützte Personen nach Kanton, Geschlecht, Zivilstand, Personengruppe
+        und Staatsangehörigkeit (Kategorie)</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15001918.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15001918</guid>\n                    </item>\n
+        \               <item>\n                        <title>Betriebsrechnung -
+        Abfluss für Leistungen und Vorbezüge</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15124094.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15124094</guid>\n                    </item>\n
+        \               <item>\n                        <title>Betriebsrechnung -
+        Entwicklung Vorsorgekapital und technische Rückstellungen, Versicherungsertrag
+        und -aufwand</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15124092.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15124092</guid>\n                    </item>\n
+        \               <item>\n                        <title>Betriebsrechnung -
+        Netto-Ergebnis aus Vermögensanlage, Ertrags- (+) / Aufwandüberschuss (-)</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15124096.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15124096</guid>\n                    </item>\n
+        \               <item>\n                        <title>Betriebsrechnung -
+        Zufluss aus Beiträgen und Eintrittsleistungen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15124095.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15124095</guid>\n                    </item>\n
+        \               <item>\n                        <title>Bezüger und Leistungen
+        - Laufende Renten am Ende des Geschäftsjahres</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15124117.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15124117</guid>\n                    </item>\n
+        \               <item>\n                        <title>Bezüger und Leistungen
+        - Reglementarische Kapital- und Austrittsleistungen sowie Vorbezüge</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15124119.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15124119</guid>\n                    </item>\n
+        \               <item>\n                        <title>MUBE: Dossiers der
+        Mutter- und Elternschaftsbeihilfen nach Kanton und Struktur der Unterstützungseinheit</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15001921.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15001921</guid>\n                    </item>\n
+        \               <item>\n                        <title>MUBE: Von den Mutter-
+        und Elternschaftsbeihilfen unterstützte Personen nach Kanton, Geschlecht,
+        Zivilstand, Erwerbssituation, Personengruppe und Staatsangehörigkeit (Kategorie)</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15001923.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15001923</guid>\n                    </item>\n
+        \               <item>\n                        <title>SH-AsylStat: Sozialhilfebeziehende
+        im Asylbereich nach Kanton, Geschlecht, Altersklasse, Aufenthaltsstatus und
+        Staatsangehörigkeit (Kategorie)</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15001941.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15001941</guid>\n                    </item>\n
+        \               <item>\n                        <title>SH-FlüStat: Sozialhilfebeziehende
+        im Flüchtlingsbereich nach Kanton, Geschlecht, Altersklasse, Aufenthaltsstatus
+        und Staatsangehörigkeit (Kategorie)</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15001896.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15001896</guid>\n                    </item>\n
+        \               <item>\n                        <title>Schlussbilanz - Aktiven:
+        Direkte / kollektive Anlagen und Aktiven aus Versicherungsverträgen</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15124091.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15124091</guid>\n                    </item>\n
+        \               <item>\n                        <title>Schlussbilanz - Aktiven:
+        Kollektive Anlagen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15124103.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15124103</guid>\n                    </item>\n
+        \               <item>\n                        <title>Schlussbilanz - Passiven</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15124090.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15124090</guid>\n                    </item>\n
+        \               <item>\n                        <title>Vorsorgeeinrichtungen
+        und Versicherte nach Beitrags- und Leistungsprimat</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15124121.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15124121</guid>\n                    </item>\n
+        \               <item>\n                        <title>WSH: Abgeschlossene
+        Dossiers der wirtschaftlichen Sozialhilfe nach Kanton, Struktur der Unterstützungseinheit,
+        Bezugsdauer, Beendigungsgrund und Altersklasse</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15001925.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15001925</guid>\n                    </item>\n
+        \               <item>\n                        <title>WSH: Dossiers der wirtschaftlichen
+        Sozialhilfe nach Kanton, Struktur der Unterstützungseinheit, Geschlecht, Altersklasse
+        und Staatsangehörigkeit (Kategorie) der antragstellenden Person</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15001901.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15001901</guid>\n                    </item>\n
+        \               <item>\n                        <title>WSH: Laufende Dossiers
+        der wirtschaftlichen Sozialhilfe nach Kanton, Struktur der Unterstützungseinheit
+        und Bezugsdauer</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15001942.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15001942</guid>\n                    </item>\n
+        \               <item>\n                        <title>WSH: Sozialhilfebeziehende
+        der wirtschaftlichen Sozialhilfe ab 15 Jahren nach Kanton, Geschlecht, Altersklasse,
+        Ausbildung, Erwerbssituation und Staatsangehörigkeit (Kategorie)</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15001895.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15001895</guid>\n                    </item>\n
+        \               <item>\n                        <title>WSH: Sozialhilfebeziehende
+        der wirtschaftlichen Sozialhilfe nach Kanton und Alter</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15001922.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15001922</guid>\n                    </item>\n
+        \               <item>\n                        <title>WSH: Sozialhilfebeziehende
+        der wirtschaftlichen Sozialhilfe nach Kanton und Staatsangehörigkeit (Auswahl)</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15001943.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15001943</guid>\n                    </item>\n
+        \               <item>\n                        <title>WSH: Sozialhilfebeziehende
+        der wirtschaftlichen Sozialhilfe nach Kanton, Altersklasse und Aufenthaltsstatus</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15001898.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15001898</guid>\n                    </item>\n
+        \               <item>\n                        <title>WSH: Sozialhilfebeziehende
+        der wirtschaftlichen Sozialhilfe nach Kanton, Geschlecht, Altersklasse, Zivilstand
+        und Staatsangehörigkeit (Kategorie)</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15001894.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15001894</guid>\n                    </item>\n
+        \               <item>\n                        <title>WSH: Von der wirtschaftlichen
+        Sozialhilfe unterstützte Haushalte nach Kanton und Haushaltstyp</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15001899.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15001899</guid>\n                    </item>\n
+        \               <item>\n                        <title>Überblick über den
+        Stand der Vorsorgeeinrichtungen (VE): Bilanzsumme, aktive Versicherte, Bezüger
+        und Leistungen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15124093.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15124093</guid>\n                    </item>\n
+        \               <item>\n                        <title>Übersicht: Sozialhilfebeziehende
+        der wirtschaftliche Sozialhilfe und der Sozialhilfe im Asyl- und im Flüchtlingsbereich
+        nach Aufenthaltsstatus und Staatsangehörigkeit (Auswahl)</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15001940.html</link>\n
+        \                       <pubDate>Tue, 22 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15001940</guid>\n                    </item>\n
+        \               <item>\n                        <title>Öffentliche Bildungsausgaben
+        der Kantone und ihrer Gemeinden nach Kanton, Bildungsstufe und Ausgabenart</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14367436.html</link>\n
+        \                       <pubDate>Tue, 15 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14367436</guid>\n                    </item>\n
+        \               <item>\n                        <title>Öffentliche Bildungsausgaben
+        nach Verwaltungsebene, Bildungsstufe und Ausgabenart</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14367432.html</link>\n
+        \                       <pubDate>Tue, 15 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14367432</guid>\n                    </item>\n
+        \               <item>\n                        <title>Konto des Sektors der
+        Umweltgüter und -dienstleistungen nach Wirtschaftsbranchen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.15001992.html</link>\n
+        \                       <pubDate>Tue, 08 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed15001992</guid>\n                    </item>\n
+        \               <item>\n                        <title>Gründungen, Schliessungen
+        und Bestand aktiver Unternehmen nach Agglomeration und Grössenklasse</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14960851.html</link>\n
+        \                       <pubDate>Mon, 07 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14960851</guid>\n                    </item>\n
+        \               <item>\n                        <title>Gründungen, Schliessungen
+        und Bestand aktiver Unternehmen nach Gemeinde und Wirtschaftssektor</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14960852.html</link>\n
+        \                       <pubDate>Mon, 07 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14960852</guid>\n                    </item>\n
+        \               <item>\n                        <title>Gründungen, Schliessungen
+        und Bestand aktiver Unternehmen nach Kanton und Rechtsform</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14960849.html</link>\n
+        \                       <pubDate>Mon, 07 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14960849</guid>\n                    </item>\n
+        \               <item>\n                        <title>Gründungen, Schliessungen
+        und Bestand aktiver Unternehmen nach Kanton, Wirtschaftssektor und Grössenklasse</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14960853.html</link>\n
+        \                       <pubDate>Mon, 07 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14960853</guid>\n                    </item>\n
+        \               <item>\n                        <title>Gründungen, Schliessungen
+        und Bestand aktiver Unternehmen nach Wirtschaftsabteilung und Grössenklasse</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14960850.html</link>\n
+        \                       <pubDate>Mon, 07 Dec 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14960850</guid>\n                    </item>\n
+        \               <item>\n                        <title>Dienstleistungsumsatzstatistik
+        - jährliche Zeitreihen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14980107.html</link>\n
+        \                       <pubDate>Mon, 30 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14980107</guid>\n                    </item>\n
+        \               <item>\n                        <title>Dienstleistungsumsatzstatistik
+        - vierteljährliche Zeitreihen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14980098.html</link>\n
+        \                       <pubDate>Mon, 30 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14980098</guid>\n                    </item>\n
+        \               <item>\n                        <title>Unternehmen und Beschäftigte
+        nach Sitzland (Auswahl) und Kanton</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14961234.html</link>\n
+        \                       <pubDate>Fri, 27 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14961234</guid>\n                    </item>\n
+        \               <item>\n                        <title>Unternehmen und Beschäftigte
+        nach Sitzland (Auswahl), Grossregion und Wirtschaftssektor</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14961237.html</link>\n
+        \                       <pubDate>Fri, 27 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14961237</guid>\n                    </item>\n
+        \               <item>\n                        <title>Unternehmen und Beschäftigte
+        nach wirtschaftlicher Tätigkeit, Grössenklasse der Gruppe und Art der Gruppe</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14961232.html</link>\n
+        \                       <pubDate>Fri, 27 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14961232</guid>\n                    </item>\n
+        \               <item>\n                        <title>Unternehmensgruppen,
+        Unternehmen und  Beschäftigte nach Sitzland (Auswahl), Grössenklasse der Gruppe
+        und Regionalisierungsgrad der Gruppe</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14961223.html</link>\n
+        \                       <pubDate>Fri, 27 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14961223</guid>\n                    </item>\n
+        \               <item>\n                        <title>Szenarien 2020-2029
+        für die Hochschulen - Erwartete Entwicklung der Zahl der Studierenden und
+        der Erstabschlüsse der Fachhochschulen nach Szenario, Hochschule, Fachbereich,
+        Niveau, Zulassungsausweis und Geschlecht</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14963202.html</link>\n
+        \                       <pubDate>Mon, 23 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14963202</guid>\n                    </item>\n
+        \               <item>\n                        <title>Szenarien 2020-2029
+        für die Hochschulen - Erwartete Entwicklung der Zahl der Studierenden und
+        der Erstabschlüsse der pädagogischen Hochschulen nach Szenario, Hochschule,
+        Studiengang, Niveau, Zulassungsausweis und Geschlecht</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14963204.html</link>\n
+        \                       <pubDate>Mon, 23 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14963204</guid>\n                    </item>\n
+        \               <item>\n                        <title>Szenarien 2020-2029
+        für die Hochschulen - Erwartete Entwicklung der Zahl der Studierenden und
+        der Erstabschlüsse der schweizerischen Hochschulen nach Szenario, Hochschultyp,
+        Niveau, Zulassungsausweis und Geschlecht</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14963205.html</link>\n
+        \                       <pubDate>Mon, 23 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14963205</guid>\n                    </item>\n
+        \               <item>\n                        <title>Szenarien 2020-2029
+        für die Hochschulen - Erwartete Entwicklung der Zahl der Studierenden und
+        der Erstabschlüsse der universitären Hochschulen nach Szenario, Hochschule,
+        Fachbereichsgruppe, Niveau, Zulassungsausweis und Geschlecht</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14963203.html</link>\n
+        \                       <pubDate>Mon, 23 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14963203</guid>\n                    </item>\n
+        \               <item>\n                        <title>Szenarien 2020-2029
+        für die Sekundarstufe II: Erwartete Entwicklung der Zahl der Abschlüsse der
+        allgemeinbildenden Ausbildungen nach Kanton, Abschlusstyp und Geschlecht</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14839813.html</link>\n
+        \                       <pubDate>Mon, 23 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14839813</guid>\n                    </item>\n
+        \               <item>\n                        <title>Szenarien 2020-2029
+        für die Sekundarstufe II: Erwartete Entwicklung der Zahl der Berufsmaturitätszeugnisse
+        nach Kanton, Ausrichtung und Geschlecht</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14839820.html</link>\n
+        \                       <pubDate>Mon, 23 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14839820</guid>\n                    </item>\n
+        \               <item>\n                        <title>Szenarien 2020-2029
+        für die Sekundarstufe II: Erwartete Entwicklung der Zahl der Lernenden der
+        allgemeinbildenden Ausbildungen und der Übergangsausbildungen Sek.I-Sek.II
+        nach Kanton, Bildungsweg und Geschlecht</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14839824.html</link>\n
+        \                       <pubDate>Mon, 23 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14839824</guid>\n                    </item>\n
+        \               <item>\n                        <title>Szenarien 2020-2029
+        für die Sekundarstufe II: Erwartete Entwicklung der Zahl der Lernenden und
+        der Abschlüsse der beruflichen Grundbildung nach Kanton, Bildungsfeld und
+        Geschlecht</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14839814.html</link>\n
+        \                       <pubDate>Mon, 23 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14839814</guid>\n                    </item>\n
+        \               <item>\n                        <title>Szenarien 2020-2029
+        für die höheren Fachschulen - Erwartete Entwicklung der Zahl der Studierenden
+        und der Erstabschlüsse der höheren Fachschulen nach Szenario, Sprachregion,
+        Bildungsfeld, Zulassungsausweis und Geschlecht</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14963169.html</link>\n
+        \                       <pubDate>Mon, 23 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14963169</guid>\n                    </item>\n
+        \               <item>\n                        <title>Deckung der Kosten
+        der universitären Hochschulen nach Fachbereich, Leistung, Erlöskategorie und
+        Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14840761.html</link>\n
+        \                       <pubDate>Fri, 20 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14840761</guid>\n                    </item>\n
+        \               <item>\n                        <title>Indikatoren der universitären
+        Hochschulen nach Fachbereich und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14840760.html</link>\n
+        \                       <pubDate>Fri, 20 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14840760</guid>\n                    </item>\n
+        \               <item>\n                        <title>Kosten der universitären
+        Hochschulen nach Fachbereich, Leistung, Kostenart und Hochschule</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14840759.html</link>\n
+        \                       <pubDate>Fri, 20 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14840759</guid>\n                    </item>\n
+        \               <item>\n                        <title>Krebs: Anzahl und jährliche
+        Rate der Neuerkrankungen und Todesfälle nach Sprachregion, Krebslokalisation,
+        Geschlecht und Altersklasse</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14816210.html</link>\n
+        \                       <pubDate>Thu, 12 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14816210</guid>\n                    </item>\n
+        \               <item>\n                        <title>Krebs: Medianalter,
+        Neuerkrankungs- und Todesfallrisiko sowie verlorene potenzielle Lebensjahre
+        vor dem 70. Altersjahr nach Sprachregion, Krebslokalisation und Geschlecht</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14816212.html</link>\n
+        \                       <pubDate>Thu, 12 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14816212</guid>\n                    </item>\n
+        \               <item>\n                        <title>Krebs: jährliche rohe
+        und standardisierte Rate der Neuerkrankungen und Todesfälle nach Sprachregion,
+        Krebslokalisation und Geschlecht</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14816211.html</link>\n
+        \                       <pubDate>Thu, 12 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14816211</guid>\n                    </item>\n
+        \               <item>\n                        <title>Regionale Branchenkonten
+        des Primärsektors nach Kanton, Branche, institutioneller Sektor und Kontoposten</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14776666.html</link>\n
+        \                       <pubDate>Mon, 09 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14776666</guid>\n                    </item>\n
+        \               <item>\n                        <title>Regionale Landwirtschaftliche
+        Gesamtrechnung (R-LGR) nach Kanton und Kontoposten</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14776665.html</link>\n
+        \                       <pubDate>Mon, 09 Nov 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14776665</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige Wohnbevölkerung
+        nach Geschlecht und Alter, 1860-2019</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14819631.html</link>\n
+        \                       <pubDate>Tue, 27 Oct 2020 08:30:00 +0100</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14819631</guid>\n                    </item>\n
+        \               <item>\n                        <title>Forstwirtschaftliches
+        Testbetriebsnetz (TBN): Ergebnisse des Gesamtbetriebes - Betriebswirtschaftliche
+        Kennzahlen nach Forstzone und Hauptproduktbereich</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14776168.html</link>\n
+        \                       <pubDate>Tue, 20 Oct 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14776168</guid>\n                    </item>\n
+        \               <item>\n                        <title>Forstwirtschaftliches
+        Testbetriebsnetz (TBN): Ergebnisse des Hauptbetriebes - Betriebswirtschaftliche
+        Kennzahlen des Hauptproduktbereichs Waldbewirtschaftung nach Forstzone und
+        Vorrangfunktion</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14776172.html</link>\n
+        \                       <pubDate>Tue, 20 Oct 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14776172</guid>\n                    </item>\n
+        \               <item>\n                        <title>Forstwirtschaftliches
+        Testbetriebsnetz (TBN): Ergebnisse des Nebenbetriebes - Betriebswirtschaftliche
+        Kennzahlen des Hauptproduktbereichs Dienstleistungen nach Forstzone und Produkt</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14776169.html</link>\n
+        \                       <pubDate>Tue, 20 Oct 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14776169</guid>\n                    </item>\n
+        \               <item>\n                        <title>Forstwirtschaftliches
+        Testbetriebsnetz (TBN): Ergebnisse des Nebenbetriebes - Betriebswirtschaftliche
+        Kennzahlen des Hauptproduktbereichs Sachgüter nach Forstzone und Produkt</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14776171.html</link>\n
+        \                       <pubDate>Tue, 20 Oct 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14776171</guid>\n                    </item>\n
+        \               <item>\n                        <title>Forstwirtschaftliches
+        Testbetriebsnetz (TBN): Investitionen - Betriebswirtschaftliche Kennzahlen
+        nach Forstzone</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14776176.html</link>\n
+        \                       <pubDate>Tue, 20 Oct 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14776176</guid>\n                    </item>\n
+        \               <item>\n                        <title>Forstwirtschaftliches
+        Testbetriebsnetz (TBN): Strukturdaten - Angaben zur Struktur der Forstbetriebe
+        nach Forstzone</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14776170.html</link>\n
+        \                       <pubDate>Tue, 20 Oct 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14776170</guid>\n                    </item>\n
+        \               <item>\n                        <title>Betrag, Bezügerinnen
+        und Bezüger nach Form des Ausbildungsbeitrags, Kanton und Bildungsstufe</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14709117.html</link>\n
+        \                       <pubDate>Thu, 08 Oct 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14709117</guid>\n                    </item>\n
+        \               <item>\n                        <title>Gebäude nach institutionellen
+        Gliederungen, Gebäudekategorie und Bauperiode</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14707205.html</link>\n
+        \                       <pubDate>Thu, 08 Oct 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14707205</guid>\n                    </item>\n
+        \               <item>\n                        <title>Gebäude nach Kanton, Gebäudekategorie, Anzahl Geschosse,
+        Anzahl Wohnungen und Bauperiode</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14707206.html</link>\n
+        \                       <pubDate>Thu, 08 Oct 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14707206</guid>\n                    </item>\n
+        \               <item>\n                        <title>Privathaushalte nach
+        institutionellen Gliederungen und Haushaltsgrösse</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14407064.html</link>\n
+        \                       <pubDate>Thu, 08 Oct 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14407064</guid>\n                    </item>\n
+        \               <item>\n                        <title>Stipendien: Bezügerinnen
+        und Bezüger nach Kanton, Geschlecht und Altersklasse</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14527402.html</link>\n
+        \                       <pubDate>Thu, 08 Oct 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14527402</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige Wohnbevölkerung
+        in Privathaushalten nach institutionellen Gliederungen und Haushaltsgrösse</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14407063.html</link>\n
+        \                       <pubDate>Thu, 08 Oct 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14407063</guid>\n                    </item>\n
+        \               <item>\n                        <title>Wohnungen nach Kanton,
+        Gebäudekategorie, Anzahl Zimmer, Wohnungsfläche und Bauperiode</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14707207.html</link>\n
+        \                       <pubDate>Thu, 08 Oct 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14707207</guid>\n                    </item>\n
+        \               <item>\n                        <title>Wohnungen nach institutionellen
+        Gliederungen, Gebäudekategorie, Anzahl Zimmer und Bauperiode</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14707208.html</link>\n
+        \                       <pubDate>Thu, 08 Oct 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14707208</guid>\n                    </item>\n
+        \               <item>\n                        <title>Wohnungen nach institutionellen
+        Gliederungen, Gebäudekategorie, Wohnungsfläche und Bauperiode</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14707209.html</link>\n
+        \                       <pubDate>Thu, 08 Oct 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14707209</guid>\n                    </item>\n
+        \               <item>\n                        <title>Landwirtschaftliche
+        Gesamtrechnung (LGR) nach Bereich des Agrarsektors und Kontoposten</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14707464.html</link>\n
+        \                       <pubDate>Tue, 06 Oct 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14707464</guid>\n                    </item>\n
+        \               <item>\n                        <title>Leer stehende Wohnungen
+        nach institutionellen Gliederungen, Anzahl Wohnräumen und Typ der Leerwohnung</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14667250.html</link>\n
+        \                       <pubDate>Mon, 05 Oct 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14667250</guid>\n                    </item>\n
+        \               <item>\n                        <title>Branchenkonten des
+        Primärsektors nach Branche, institutioneller Sektor und Kontoposten</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14507732.html</link>\n
+        \                       <pubDate>Wed, 30 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14507732</guid>\n                    </item>\n
+        \               <item>\n                        <title>Forstwirtschaftliche
+        Gesamtrechnung (FGR) nach Bereich der Forstwirtschaft und Kontoposten</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14507731.html</link>\n
+        \                       <pubDate>Wed, 30 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14507731</guid>\n                    </item>\n
+        \               <item>\n                        <title>Forstwirtschaftliche
+        Gesamtrechnung (FGR), stehende Holzvorräte (Bilanz)</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14507738.html</link>\n
+        \                       <pubDate>Wed, 30 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14507738</guid>\n                    </item>\n
+        \               <item>\n                        <title>Energieeinsatzkonten
+        der Haushalte und der Wirtschaft</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14447539.html</link>\n
+        \                       <pubDate>Tue, 29 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14447539</guid>\n                    </item>\n
+        \               <item>\n                        <title>Heiraten und Heiratshäufigkeit
+        seit 1801</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14387160.html</link>\n
+        \                       <pubDate>Tue, 29 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14387160</guid>\n                    </item>\n
+        \               <item>\n                        <title>Konten der umweltbezogenen
+        Steuern der Haushalte und der Wirtschaft</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14628677.html</link>\n
+        \                       <pubDate>Tue, 29 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14628677</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lebendgeburten nach
+        Monat und Fruchtbarkeit seit 1803</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14387170.html</link>\n
+        \                       <pubDate>Tue, 29 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14387170</guid>\n                    </item>\n
+        \               <item>\n                        <title>Luftemissionskonten
+        der Haushalte und der Wirtschaft</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14447535.html</link>\n
+        \                       <pubDate>Tue, 29 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14447535</guid>\n                    </item>\n
+        \               <item>\n                        <title>Scheidungen und Scheidungshäufigkeit
+        seit 1876</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14387163.html</link>\n
+        \                       <pubDate>Tue, 29 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14387163</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lebensqualität in den
+        Quartieren der City Statistics Städten: Demographischer Kontext</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14250659.html</link>\n
+        \                       <pubDate>Tue, 22 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14250659</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lebensqualität in den
+        Städten und Agglomerationen (Agglo 2012): Gesundheit</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14250622.html</link>\n
+        \                       <pubDate>Tue, 22 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14250622</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lebensqualität in den
+        Städten und Agglomerationen (Agglo 2012): Persönliche Sicherheit</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14250658.html</link>\n
+        \                       <pubDate>Tue, 22 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14250658</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lebensqualität in den
+        Städten und Agglomerationen (Agglo 2012): Qualität der Umwelt</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14250623.html</link>\n
+        \                       <pubDate>Tue, 22 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14250623</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lebensqualität in den
+        Städten und Agglomerationen (Agglo 2012): Wirtschaftlicher Kontext</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14250660.html</link>\n
+        \                       <pubDate>Tue, 22 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14250660</guid>\n                    </item>\n
+        \               <item>\n                        <title>Lebensqualität in den
+        Städten und Agglomerationen (Agglo2012): Arbeitsmarkt, Wohnen, Bildung - kumulierte
+        Daten der Strukturerhebung</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14250643.html</link>\n
+        \                       <pubDate>Tue, 22 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14250643</guid>\n                    </item>\n
+        \               <item>\n                        <title>Urbane Schweiz: Ausgewählte
+        Variablen nach Agglomerationen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14467736.html</link>\n
+        \                       <pubDate>Tue, 22 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14467736</guid>\n                    </item>\n
+        \               <item>\n                        <title>Urbane Schweiz: Ausgewählte
+        Variablen nach Arbeitsmarktregionen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14467762.html</link>\n
+        \                       <pubDate>Tue, 22 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14467762</guid>\n                    </item>\n
+        \               <item>\n                        <title>Urbane Schweiz: Ausgewählte
+        Variablen nach dem Raum mit städtischem Charakter</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14467770.html</link>\n
+        \                       <pubDate>Tue, 22 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14467770</guid>\n                    </item>\n
+        \               <item>\n                        <title>Urbane Schweiz: Ausgewählte
+        Variablen nach der Stadt/Land-Typologie</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14467769.html</link>\n
+        \                       <pubDate>Tue, 22 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14467769</guid>\n                    </item>\n
+        \               <item>\n                        <title>Urbane Schweiz: Ausgewählte
+        Variablen nach statistischen Städten</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14467768.html</link>\n
+        \                       <pubDate>Tue, 22 Sep 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14467768</guid>\n                    </item>\n
+        \               <item>\n                        <title>Arbeitsstätten und
+        Beschäftigte nach Gemeinde und Wirtschaftssektor</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13787332.html</link>\n
+        \                       <pubDate>Fri, 28 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13787332</guid>\n                    </item>\n
+        \               <item>\n                        <title>Arbeitsstätten und
+        Beschäftigte nach Kanton und Grössenklasse</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13827974.html</link>\n
+        \                       <pubDate>Fri, 28 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13827974</guid>\n                    </item>\n
+        \               <item>\n                        <title>Arbeitsstätten und
+        Beschäftigte nach Kanton und Wirtschaftsabteilung</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13787330.html</link>\n
+        \                       <pubDate>Fri, 28 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13787330</guid>\n                    </item>\n
+        \               <item>\n                        <title>Arbeitsstätten und
+        Beschäftigte nach Kanton und Wirtschaftsart</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13787327.html</link>\n
+        \                       <pubDate>Fri, 28 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13787327</guid>\n                    </item>\n
+        \               <item>\n                        <title>Aufwand der universitären
+        Hochschulen nach Fachbereich, Aufwandsart, Finanzierungstyp und Hochschule</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14027512.html</link>\n
+        \                       <pubDate>Fri, 28 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14027512</guid>\n                    </item>\n
+        \               <item>\n                        <title>Betriebserlöse der
+        Fachhochschulen nach Fachbereich, Leistung, Geldgeber und Hochschule</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13867064.html</link>\n
+        \                       <pubDate>Fri, 28 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13867064</guid>\n                    </item>\n
+        \               <item>\n                        <title>Betriebserlöse der
+        Fachhochschulen nach Finanzquelle und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13867067.html</link>\n
+        \                       <pubDate>Fri, 28 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13867067</guid>\n                    </item>\n
+        \               <item>\n                        <title>Betriebserlöse der
+        pädagogischen Hochschulen nach Finanzquelle und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13867015.html</link>\n
+        \                       <pubDate>Fri, 28 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13867015</guid>\n                    </item>\n
+        \               <item>\n                        <title>Betriebserlöse der
+        pädagogischen Hochschulen nach Leistung, Geldgeber und Hochschule</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13867014.html</link>\n
+        \                       <pubDate>Fri, 28 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13867014</guid>\n                    </item>\n
+        \               <item>\n                        <title>Betriebskosten der
+        pädagogischen Hochschulen nach Leistung, Kostenart und Hochschule</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13867018.html</link>\n
+        \                       <pubDate>Fri, 28 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13867018</guid>\n                    </item>\n
+        \               <item>\n                        <title>Deckung des Aufwands
+        der universitären Hochschulen nach Finanzquelle und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14027511.html</link>\n
+        \                       <pubDate>Fri, 28 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14027511</guid>\n                    </item>\n
+        \               <item>\n                        <title>Indikatoren der Fachhochschulen
+        nach Fachbereich und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13867065.html</link>\n
+        \                       <pubDate>Fri, 28 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13867065</guid>\n                    </item>\n
+        \               <item>\n                        <title>Institutionelle Einheiten
+        und Beschäftigte nach Kanton und Grössenklasse</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13787329.html</link>\n
+        \                       <pubDate>Fri, 28 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13787329</guid>\n                    </item>\n
+        \               <item>\n                        <title>Institutionelle Einheiten
+        und Beschäftigte nach Kanton und Wirtschaftsabteilung</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13787328.html</link>\n
+        \                       <pubDate>Fri, 28 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13787328</guid>\n                    </item>\n
+        \               <item>\n                        <title>Institutionelle Einheiten
+        und Beschäftigte nach Kanton und Wirtschaftsart</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13787331.html</link>\n
+        \                       <pubDate>Fri, 28 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13787331</guid>\n                    </item>\n
+        \               <item>\n                        <title>Institutionelle Einheiten
+        und Beschäftigte nach Kanton, Wirtschaftssektor, öffentlicher/privater Sektor
+        und wirtschaftliche Ausrichtung</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13787346.html</link>\n
+        \                       <pubDate>Fri, 28 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13787346</guid>\n                    </item>\n
+        \               <item>\n                        <title>Vollkosten der Fachhochschulen
+        nach Fachbereich, Leistung, Kostenart und Hochschule</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13867066.html</link>\n
+        \                       <pubDate>Fri, 28 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13867066</guid>\n                    </item>\n
+        \               <item>\n                        <title>Auswanderung der ständigen
+        Wohnbevölkerung nach Kanton, Staatsangehörigkeit (Kategorie), Geburtsstaat,
+        Geschlecht und Altersklasse</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087696.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087696</guid>\n                    </item>\n
+        \               <item>\n                        <title>Auswanderung der ständigen
+        Wohnbevölkerung nach Kanton, Staatsangehörigkeit (Kategorie), Geschlecht und
+        Alter</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087667.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087667</guid>\n                    </item>\n
+        \               <item>\n                        <title>Auswanderung der ständigen
+        Wohnbevölkerung nach Kanton, Staatsangehörigkeit (Kategorie), Zielstaat, Geschlecht
+        und Altersklasse</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087697.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087697</guid>\n                    </item>\n
+        \               <item>\n                        <title>Auswanderung der ständigen
+        Wohnbevölkerung nach Kanton, Staatsangehörigkeit, Geschlecht und Altersklasse</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087694.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087694</guid>\n                    </item>\n
+        \               <item>\n                        <title>Binnenabwanderung der
+        ständigen Wohnbevölkerung nach Kanton, Staatsangehörigkeit (Kategorie), Geschlecht,
+        Zivilstand und Alter</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087669.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087669</guid>\n                    </item>\n
+        \               <item>\n                        <title>Binnenwanderung der
+        ständigen Wohnbevölkerung nach Zuzugs- und Wegzugskanton, Staatsangehörigkeit
+        (Kategorie), Geschlecht und Alter</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087663.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087663</guid>\n                    </item>\n
+        \               <item>\n                        <title>Binnenzuwanderung der
+        ständigen Wohnbevölkerung nach Kanton, Staatsangehörigkeit (Kategorie), Geschlecht,
+        Zivilstand und Alter</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087661.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087661</guid>\n                    </item>\n
+        \               <item>\n                        <title>Demografische Bilanz
+        nach Alter</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087718.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087718</guid>\n                    </item>\n
+        \               <item>\n                        <title>Demografische Bilanz
+        nach Alter und Kanton</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087717.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087717</guid>\n                    </item>\n
+        \               <item>\n                        <title>Demografische Bilanz
+        nach Kanton</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087712.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087712</guid>\n                    </item>\n
+        \               <item>\n                        <title>Demografische Bilanz
+        nach Staatsangehörigkeit</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087720.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087720</guid>\n                    </item>\n
+        \               <item>\n                        <title>Demografische Bilanz
+        nach Zivilstand</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087722.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087722</guid>\n                    </item>\n
+        \               <item>\n                        <title>Demografische Bilanz
+        nach institutionellen Gliederungen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087721.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087721</guid>\n                    </item>\n
+        \               <item>\n                        <title>Einwanderung der ständigen
+        Wohnbevölkerung nach Kanton, Staatsangehörigkeit (Kategorie), Geburtsstaat,
+        Geschlecht und Altersklasse</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087687.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087687</guid>\n                    </item>\n
+        \               <item>\n                        <title>Einwanderung der ständigen
+        Wohnbevölkerung nach Kanton, Staatsangehörigkeit (Kategorie), Geschlecht und
+        Alter</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087668.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087668</guid>\n                    </item>\n
+        \               <item>\n                        <title>Einwanderung der ständigen
+        Wohnbevölkerung nach Kanton, Staatsangehörigkeit (Kategorie), Herkunftsstaat,
+        Geschlecht und Altersklasse</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087670.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087670</guid>\n                    </item>\n
+        \               <item>\n                        <title>Einwanderung der ständigen
+        Wohnbevölkerung nach Kanton, Staatsangehörigkeit, Geschlecht und Altersklasse</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087666.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087666</guid>\n                    </item>\n
+        \               <item>\n                        <title>Erwerb des Schweizer
+        Bürgerrechts nach Kanton, Art des Erwerbs, Geschlecht, Alter und ehemalige
+        Staatsangehörigkeit</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087700.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087700</guid>\n                    </item>\n
+        \               <item>\n                        <title>Erwerb des Schweizer
+        Bürgerrechts nach institutionellen Gliederungen, Geschlecht und ehemalige
+        Staatsangehörigkeit (Auswahl)</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087698.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087698</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Fachhochschulen
+        (ohne PH) nach Fachbereich, Geschlecht und Hochschule - in Personen</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707491.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707491</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Fachhochschulen
+        (ohne PH) nach Fachbereich, Staatsangehörigkeit (Kategorie) und Hochschule
+        - in Personen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707467.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707467</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Fachhochschulen
+        (ohne PH) nach Leistung, Personalkategorie und Hochschule - in VZÄ</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707493.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707493</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Fachhochschulen
+        (ohne PH) nach Personalkategorie, Fachbereich und Hochschule - in Personen</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707468.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707468</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Fachhochschulen
+        (ohne PH) nach Personalkategorie, Fachbereich und Hochschule - in VZÄ</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707471.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707471</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Fachhochschulen
+        (ohne PH) nach Personalkategorie, Geschlecht und Hochschule - in Personen</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707519.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707519</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Fachhochschulen
+        (ohne PH) nach Personalkategorie, Geschlecht und Hochschule - in VZÄ</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707470.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707470</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Fachhochschulen
+        (ohne PH) nach Personalkategorie, Staatsangehörigkeit (Kategorie) und Hochschule
+        - in Personen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707469.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707469</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Fachhochschulen
+        und pädagogischen Hochschulen nach Fachbereich, Geschlecht und Hochschule
+        - in Personen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707548.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707548</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Fachhochschulen
+        und pädagogischen Hochschulen nach Fachbereich, Staatsangehörigkeit (Kategorie)
+        und Hochschule - in Personen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707533.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707533</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Fachhochschulen
+        und pädagogischen Hochschulen nach Leistung, Personalkategorie und Hochschule
+        - in VZÄ</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707558.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707558</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Fachhochschulen
+        und pädagogischen Hochschulen nach Personalkategorie, Fachbereich und Hochschule
+        - in Personen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707527.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707527</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Fachhochschulen
+        und pädagogischen Hochschulen nach Personalkategorie, Fachbereich und Hochschule
+        - in VZÄ</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707518.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707518</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Fachhochschulen
+        und pädagogischen Hochschulen nach Personalkategorie, Geschlecht und Hochschule
+        - in Personen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707543.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707543</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Fachhochschulen
+        und pädagogischen Hochschulen nach Personalkategorie, Geschlecht und Hochschule
+        - in VZÄ</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707545.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707545</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Fachhochschulen
+        und pädagogischen Hochschulen nach Personalkategorie, Staatsangehörigkeit
+        (Kategorie) und Hochschule - in Personen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707536.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707536</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Pädagogischen
+        Hochschulen nach Leistung, Personalkategorie und Hochschule - in VZÄ</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707509.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707509</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Pädagogischen
+        Hochschulen nach Personalkategorie, Fachrichtung und Hochschule - in VZÄ</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707495.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707495</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Pädagogischen
+        Hochschulen nach Personalkategorie, Geschlecht und Hochschule - in Personen</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707513.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707513</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der Pädagogischen
+        Hochschulen nach Personalkategorie, Staatsangehörigkeit (Kategorie) und Hochschule
+        - in Personen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13707497.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13707497</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach Kanton, Anwesenheitsbewilligung, Geburtsort, Geschlecht
+        und Alter</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087568.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087568</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach Kanton, Anwesenheitsbewilligung, Geschlecht, Altersklasse
+        und Staatsangehörigkeit</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087560.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087560</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach Kanton, Anwesenheitsbewilligung, Staatsangehörigkeit,
+        Geschlecht und Alter, 2019</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087625.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087625</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach Kanton, Geschlecht, Zivilstand und Alter</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087557.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087557</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach Kanton, Staatsangehörigkeit (Auswahl), Geburtsstaat,
+        Geschlecht und Alter, 2019</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087635.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087635</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach Kanton, Staatsangehörigkeit (Auswahl), Geburtsstaat,
+        Geschlecht und Altersklasse, 2010-2019</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087630.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087630</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach Kanton, Staatsangehörigkeit, Geburtsstaat und Geschlecht,
+        2010-2019</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087642.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087642</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach Kanton, Staatsangehörigkeit, Geburtsstaat, Geschlecht
+        und Zivilstand, 2019</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087643.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087643</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach institutionellen Gliederungen, Geburtsort und Staatsangehörigkeit</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087558.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087558</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach institutionellen Gliederungen, Geburtsort, Geschlecht
+        und Zivilstand</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087555.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087555</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach institutionellen Gliederungen, Geschlecht, Zivilstand
+        und Altersklasse</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087559.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087559</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach institutionellen Gliederungen, Staatsangehörigkeit (Kategorie),
+        Geburtsort, Geschlecht und Altersklasse</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087564.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087564</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach institutionellen Gliederungen, Staatsangehörigkeit (Kategorie),
+        Geschlecht und Alter</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087554.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087554</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach institutionellen Gliederungen, Wohnort vor 1 Jahr, Geschlecht
+        und Alter</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087580.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087580</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach institutionellen Gliederungen, Wohnort vor 1 Jahr, Staatsangehörigkeit
+        (Auswahl), Geschlecht und Altersklasse, 2010</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087596.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087596</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach institutionellen Gliederungen, Wohnort vor 1 Jahr, Staatsangehörigkeit
+        (Auswahl), Geschlecht und Altersklasse, 2010-2019</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087616.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087616</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach institutionellen Gliederungen, Wohnort vor 1 Jahr, Staatsangehörigkeit
+        (Auswahl), Geschlecht und Altersklasse, 2011</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087592.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087592</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach institutionellen Gliederungen, Wohnort vor 1 Jahr, Staatsangehörigkeit
+        (Auswahl), Geschlecht und Altersklasse, 2012</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087589.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087589</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach institutionellen Gliederungen, Wohnort vor 1 Jahr, Staatsangehörigkeit
+        (Auswahl), Geschlecht und Altersklasse, 2013</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087593.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087593</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach institutionellen Gliederungen, Wohnort vor 1 Jahr, Staatsangehörigkeit
+        (Auswahl), Geschlecht und Altersklasse, 2014</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087590.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087590</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach institutionellen Gliederungen, Wohnort vor 1 Jahr, Staatsangehörigkeit
+        (Auswahl), Geschlecht und Altersklasse, 2015</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087598.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087598</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach institutionellen Gliederungen, Wohnort vor 1 Jahr, Staatsangehörigkeit
+        (Auswahl), Geschlecht und Altersklasse, 2016</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087600.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087600</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach institutionellen Gliederungen, Wohnort vor 1 Jahr, Staatsangehörigkeit
+        (Auswahl), Geschlecht und Altersklasse, 2017</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087615.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087615</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach institutionellen Gliederungen, Wohnort vor 1 Jahr, Staatsangehörigkeit
+        (Auswahl), Geschlecht und Altersklasse, 2018</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087614.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087614</guid>\n                    </item>\n
+        \               <item>\n                        <title>Ständige und nichtständige
+        Wohnbevölkerung nach institutionellen Gliederungen, Wohnort vor 1 Jahr, Staatsangehörigkeit
+        (Auswahl), Geschlecht und Altersklasse, 2019</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087650.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087650</guid>\n                    </item>\n
+        \               <item>\n                        <title>Wanderung der ständigen
+        Wohnbevölkerung nach institutionellen Gliederungen, Staatsangehörigkeit (Auswahl),
+        Geschlecht und Migrationstyp</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.14087662.html</link>\n
+        \                       <pubDate>Thu, 27 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed14087662</guid>\n                    </item>\n
+        \               <item>\n                        <title>Männliche Vornamen
+        der Neugeborenen nach Sprachgebiet und Kanton</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13807206.html</link>\n
+        \                       <pubDate>Tue, 18 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13807206</guid>\n                    </item>\n
+        \               <item>\n                        <title>Weibliche Vornamen
+        der Neugeborenen nach Sprachgebiet und Kanton</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13807213.html</link>\n
+        \                       <pubDate>Tue, 18 Aug 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13807213</guid>\n                    </item>\n
+        \               <item>\n                        <title>Bauausgaben nach Gemeinde,
+        Art der Auftraggeber, Art der Bauwerke und Art der Arbeiten</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13787968.html</link>\n
+        \                       <pubDate>Mon, 03 Aug 2020 16:00:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13787968</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der universitären
+        Hochschulen nach Fachbereich, Geschlecht und Hochschule - in Personen</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13367865.html</link>\n
+        \                       <pubDate>Tue, 28 Jul 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13367865</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der universitären
+        Hochschulen nach Fachbereich, Personalkategorie und Hochschule - in Personen</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13367867.html</link>\n
+        \                       <pubDate>Tue, 28 Jul 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13367867</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der universitären
+        Hochschulen nach Fachbereich, Personalkategorie und Hochschule - in VZÄ</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13367862.html</link>\n
+        \                       <pubDate>Tue, 28 Jul 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13367862</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der universitären
+        Hochschulen nach Fachbereich, Staatsangehörigkeit (Kategorie) und Hochschule
+        - in Personen</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13367864.html</link>\n
+        \                       <pubDate>Tue, 28 Jul 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13367864</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der universitären
+        Hochschulen nach Finanzquelle, Personalkategorie und Hochschule - in VZÄ</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13367875.html</link>\n
+        \                       <pubDate>Tue, 28 Jul 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13367875</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der universitären
+        Hochschulen nach Leistung, Personalkategorie und Hochschule - in VZÄ</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13367874.html</link>\n
+        \                       <pubDate>Tue, 28 Jul 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13367874</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der universitären
+        Hochschulen nach Personalkategorie, Geschlecht und Hochschule - in Personen</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13367870.html</link>\n
+        \                       <pubDate>Tue, 28 Jul 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13367870</guid>\n                    </item>\n
+        \               <item>\n                        <title>Personal der universitären
+        Hochschulen nach Personalkategorie, Geschlecht und Hochschule - in VZÄ</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13367863.html</link>\n
+        \                       <pubDate>Tue, 28 Jul 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13367863</guid>\n                    </item>\n
+        \               <item>\n                        <title>Neu erstellte Gebäude
+        mit Wohnungen nach institutionellen Gliederungen und Gebäudetyp, ab 2013</title>\n
+        \                       <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13607614.html</link>\n
+        \                       <pubDate>Mon, 20 Jul 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13607614</guid>\n                    </item>\n
+        \               <item>\n                        <title>Neu erstellte Wohnungen
+        nach institutionellen Gliederungen und Anzahl Zimmer, ab 2013</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13607615.html</link>\n
+        \                       <pubDate>Mon, 20 Jul 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13607615</guid>\n                    </item>\n
+        \               <item>\n                        <title>Neu erstellte Wohnungen
+        nach institutionellen Gliederungen und Gebäudetyp, ab 2013</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13607616.html</link>\n
+        \                       <pubDate>Mon, 20 Jul 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13607616</guid>\n                    </item>\n
+        \               <item>\n                        <title>Anzahl Pflanzungen
+        in der Schweiz</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13168000.html</link>\n
+        \                       <pubDate>Thu, 16 Jul 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13168000</guid>\n                    </item>\n
+        \               <item>\n                        <title>Forstbetriebe der Schweiz,
+        ab 2015</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13187004.html</link>\n
+        \                       <pubDate>Thu, 16 Jul 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13187004</guid>\n                    </item>\n
+        \               <item>\n                        <title>Holzernte in der Schweiz,
+        in m3</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13167998.html</link>\n
+        \                       <pubDate>Thu, 16 Jul 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13167998</guid>\n                    </item>\n
+        \               <item>\n                        <title>Holzernte und Waldflächen
+        nach Organisationstyp, ab 2015</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13187005.html</link>\n
+        \                       <pubDate>Thu, 16 Jul 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13187005</guid>\n                    </item>\n
+        \               <item>\n                        <title>Investitionen in den
+        Forstbetrieben in Franken, ab 2015</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13187002.html</link>\n
+        \                       <pubDate>Thu, 16 Jul 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13187002</guid>\n                    </item>\n
+        \               <item>\n                        <title>Rechnungen der Forstbetriebe
+        in Franken, ab 2015</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13187001.html</link>\n
+        \                       <pubDate>Thu, 16 Jul 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13187001</guid>\n                    </item>\n
+        \               <item>\n                        <title>Waldflächen der Schweiz,
+        in ha</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13167999.html</link>\n
+        \                       <pubDate>Thu, 16 Jul 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13167999</guid>\n                    </item>\n
+        \               <item>\n                        <title>Extramuros-F+E-Aufwendungen
+        des Bundes nach Aufwandsart und Empfängerstelle</title>\n                        <link>https://www.bfs.admin.ch/content/bfs/de/home/statistiken/kataloge-datenbanken/daten.assetdetail.13467646.html</link>\n
+        \                       <pubDate>Tue, 07 Jul 2020 08:30:00 +0200</pubDate><guid
+        isPermaLink=\"false\">bfsRSSFeed13467646</guid>\n                    </item>\n
+        \               </channel>\n        </rss>\n    "
+  recorded_at: 2021-04-23 05:15:06 GMT
+  recorded_with: vcr/0.6.0, webmockr/0.8.0
